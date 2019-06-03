@@ -3,9 +3,50 @@
   <head>
     <meta charset="utf-8">
     <title></title>
+    <style media="screen">
+      body{
+      background-image:url(bakgrunn.jpg);
+      background-size: 100%;
+      }
+      h1{
+        color: white;
+      }
+      ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+
+  li {
+    float: left;
+  }
+
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  li a:hover:not(.active) {
+    background-color: #111;
+  }
+
+  .active {
+    background-color: #4CAF50;
+  }
+    </style>
   </head>
   <body>
     <h1>Portefølje</h1>
-    <a href="Nettsted med database/databasevurdering/hovedside.html">Nettsted med database</a>
+  <ul>
+   <li><a class="active"href="index.html">Home</a></li>
+   <li><a href="Nettsted med database/databasevurdering/hovedside.html">Nettsted med database</a></li>
+   <li><a href="Nettsted med multimedier/nettsideprosjekt/hovedside.html">Nettsted med multimedier</a></li>
+   <li><a href="Digitalsamtid/Digital samtid gruppeoppgave/gruppearbeid.html">Digital samtid</a></li>
+  </ul>
   </body>
 </html>
