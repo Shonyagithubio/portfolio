@@ -1,0 +1,172 @@
+{
+  "Varer" : {
+    "Kaker" : {
+      "K001" : {
+        "Navn" : "Sjokoladekake",
+        "Pris" : 350,
+        "Bilde": "sjokolade.jpg",
+        "Type" : "Bursdag",
+        "Beskrivelse": "<video src='video/sjokoladekake.mp4' controls alt=''></video>",
+        "Tekst": " Vi lager verdens beste sjokoladekake i langpanne med glasur. Passer til skoleavslutning, fest i barnehagen, dugnad eller bursdag. "
+      },
+      "K002" : {
+        "Navn" : "Marsipankake",
+        "Pris" : 400,
+        "Bilde": "marsipankake.jpg",
+        "Type" : "Konfirmasjon",
+        "Beskrivelse":  "<video src='video/marsipankake.mp4' controls alt=''></video>",
+        "Tekst": "Denne marsipankaken er bestselgeren vår som passer til alle anledninger fra konfirmasjon til bryllup. Kaken består av vaniljekrem og bringebærfyll og et pyntet marsipanlokk."
+      },
+      "K003" : {
+          "Navn" : "Brownies",
+          "Pris" : 150,
+          "Bilde": "brownies.jpg",
+          "Type" : "Bursdag",
+          "Beskrivelse": "<video src='video/brownies.mp4' controls alt=''></video>",
+          "Tekst": "En smakfull brownies laget med deilig, mørk sjokolade. Denne brownies smelter i munn og kan nytes med vaniljekrem eller vaniljeis. "
+      },
+      "K004" : {
+          "Navn" : "Gulrotkake",
+          "Pris" : 300,
+          "Bilde": "gulrotkake.jpg",
+          "Type" : "Konfirmasjon",
+          "Beskrivelse": "<video src='video/gulrotkake.mp4' controls alt=''></video>",
+          "Tekst": "Deilig gulrotkake dekket med masse nydelig ostekrem toppet med revet gulrøtter. Denne gulrotkaken er en favoritt som faller i smak hos både store og små."
+      },
+      "K005" : {
+          "Navn" : "Oreokake",
+          "Pris" : 400,
+          "Bilde": "oreokake.jpg",
+          "Type" : "Konfirmasjon",
+          "Beskrivelse":  "<video src='video/oreokake.mp4' controls alt=''></video>",
+          "Tekst": "Denne kaken er helt spesiell og inneholder masse av de berømte, amerikanske Oreokjeksene satt sammen med sjokolademousse og ostekrem. Kaken er fantastisk god og mektig. "
+      },
+      "k006" : {
+          "Navn" : "Bløtkake",
+          "Pris" : 450,
+          "Bilde": "bløtkake.jpg",
+          "Type" : "Bryllup",
+          "Beskrivelse":  "<video src='video/bløtkake.mp4' controls alt=''></video>",
+          "Tekst": "Vår bløtkake er bakt med norske egg, og det luftige sukkerbrødet er fylt med et syrlig jordbærsyltetøy, pisket krem, banan og valnøtter. Nam!"
+      },
+      "K007" : {
+          "Navn" : "Verdens Beste",
+          "Pris" : 400,
+          "Bilde": "verdensbeste.jpg",
+          "Type" : "Bryllup",
+          "Beskrivelse":  "<video src='video/verdensbeste.mp4' controls alt=''></video>",
+          "Tekst": "Verdens beste, eller Kvæfjordkake, som den også blir kalt regnes som en av norges nasjonalkake. Den består av marengs, vaniljekrem og mandler. "
+      },
+      "K008" : {
+          "Navn" : "Ostekake",
+          "Pris" : 450,
+          "Bilde": "ostekake.jpg",
+          "Type" : "Bryllup",
+          "Beskrivelse": "<video src='video/ostekake.mp4' controls alt=''></video>",
+          "Tekst": "stekake er rett og slett en fantastisk kake, lett og frisk og kremete som den er. Vi lager den med en deilig kjeksbunn, ostekrem og valgri gelé toppet med bringebær og jordbær."
+      },
+      "K009" : {
+          "Navn" : "Kvikklunsjkake",
+          "Pris" : 400,
+          "Bilde": "kvikklunsjkake.jpg",
+          "Type" : "Bursdag",
+          "Beskrivelse":  "<video src='video/kvikklunsjkake.mp4' controls alt=''></video>",
+          "Tekst": "En mektig og flott kvikklunsjkake, et syn for øynene og nytelse for ganen. Denne kaken er en slager i barnebursdager og består av en enkel sjokoladebunn dekket med kvikklunsj og nonstop rundt."
+      },
+      "K010" : {
+        "Navn" : "Snickerskake",
+        "Pris" : 450,
+        "Bilde": "snickers.jpg",
+        "Type" : "Bursdag",
+        "Beskrivelse":  "<video src='video/snickerskake.mp4' controls alt=''></video>",
+        "Tekst": "Vi lager vår deilige snickerskake med salte peanøtter og mørk sjokolade. Denne kaken kan vi tilby på en nøttebunn eller som en pavlova."
+      }
+    },
+    "Boller" : {
+      "B001" : {
+        "Navn" : "Hvetebolle",
+        "Pris" : 100,
+        "Bilde": "hvetebolle.jpg",
+        "Type" : "Gluten",
+        "Beskrivelse":  "<video src='video/hvetebolle.mp4' controls alt=''></video>",
+        "Tekst": "Våre nybakte boller er noe alle elsker. Myke luftige bolelr laget av en enkel bolledeig. Antall 10 boller."
+
+      },
+      "B002" : {
+          "Navn" : "Kanelbolle",
+          "Pris" : 150,
+          "Bilde": "kanel.jpg",
+          "Type" : "Gluten",
+          "Beskrivelse": "<video src='video/kanelboller.mp4' controls alt=''></video>",
+          "Tekst": "Kanelboller er en av de mest populære oppskriftene på gjærbakst. Vi fyller de saftige bollene med smaken av kanel og sukker. Disse hjemmebakte bollene egner seg til selskap og også veldig godt til å fryse ned."
+      },
+      "B003" : {
+          "Navn" : "Kokosbolle",
+          "Pris" : 200,
+          "Bilde": "kokos.jpg",
+          "Type" : "Gluten",
+          "Beskrivelse":  "<video src='video/kokosbolle.mp4' controls alt=''></video>",
+          "Tekst": "Deilig marengsmasse dekket med kokosmasse, formet som en bolle. Disse er gode å nyte alene, men passer også å gi i gave. 8 store kokosboller."
+      },
+      "B004" : {
+          "Navn" : "Glutenfribolle",
+          "Pris" : 150,
+          "Bilde": "glutenfribolle.jpg",
+          "Type" : "Glutenfri",
+          "Beskrivelse":  "<video src='video/glutenfribolle.mp4' controls alt=''></video>",
+          "Tekst": "Disse glutenfribollene er en del av vår glutenfri gjærbakst vi tilbyr. De smaker akkurat som de vanlige hvetebollene, og kan si at de er verdens beste glutenfrie boller. Antall 10 boller."
+      },
+      "B005" : {
+          "Navn" : "Berlinerbolle",
+          "Pris" : 100,
+          "Bilde": "berliner.jpg",
+          "Type" : "Gluten",
+          "Beskrivelse":  "<video src='video/berlineboller.mp4' controls alt=''></video>",
+          "Tekst": "Våre berlinerboller er fylt med syltetøy og vaniljekrem. Vi tilbyr også en variant med vaniljekrem og bringebær fyll hver for seg. Antall 6 boller."
+      },
+      "B006" : {
+          "Navn" : "Skolebolle",
+          "Pris" : 200,
+          "Bilde": "skoleboller.jpg",
+          "Type": "Gluten",
+          "Beskrivelse": "<video src='video/skolebolle.mp4' controls alt=''></video>",
+          "Tekst": "Skolebrød eller skoleboller er alltid en klassiker å få servert. Vi lager våre boller med hjemmelaget vaniljekrem, og tilbyr 12 boller per bestilling."
+        }
+      },
+      "Brød": {
+      "BR001":{
+          "Navn" : "Havrebrød",
+          "Pris" : 90,
+          "Bilde": "havrebrød.jpg",
+          "Type" : "Gluten",
+          "Beskrivelse":  "<video src='video/havrebrød.mp4' controls alt=''></video>",
+          "Tekst": "Et godt, smaksrikt og mildt havrebrød som inneholder havregryn og havrekli."
+      },
+      "BR002" : {
+        "Navn" : "Glutenfrittbrød",
+        "Pris" : 50,
+        "Bilde": "glutenfribrød.jpg",
+        "Type" : "Glutenfri",
+        "Beskrivelse":  "<video src='video/glutenfribolle.mp4' controls alt=''></video>",
+        "Tekst": "Dette luftige og smakfulle brødet er laget eltefritt med vår egen glutenfri grov melblanding."
+
+      },
+      "BR003" : {
+          "Navn" : "Grovtbrød",
+          "Pris" : 90,
+          "Bilde": "grovtbrød.jpg",
+          "Type" : "Gluten",
+          "Beskrivelse":"<video src='video/grovtbrød.mp4' controls alt=''></video>",
+          "Tekst": "Vårt grovtbrød bakes med grov sammalt hvetemel toppet med solsikkekjerner"
+      },
+      "BR004" : {
+          "Navn" : "Focaccia",
+          "Pris" : 120,
+          "Bilde": "focaccia.jpg",
+          "Type" : "Gluten",
+          "Beskrivelse": "<video src='video/Focaccia.mp4' controls alt=''></video>",
+          "Tekst": "Dette er et saftig og velsmakende italiensk brød som inneholder rikelige mengder med god olivenolje, litt flaksalt og rosmarin på toppen som gir en himmelsk smak. Passer perfekt som tilbehør til annen mat eller kan nytes alene"
+          }
+        }
+      }
+    }

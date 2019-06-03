@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link rel="stylesheet" href="nettside.css">
+      <style media="screen">
+      body{
+      background-image: url("../nettsideprosjekt/bildernettside/hovedsidebilde.jpg");
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: top;
+      }
+      .box5{
+       grid-column:1/5;
+       grid-row: 4/5;
+       }
+      </style>
+  </head>
+
+  <body>
+
+    <header>
+      <!--menybar med dropdown lenker-->
+    <ul>
+      <h1>NAILBAR</h1>
+       <li><a href="booktime.html">Book time</a></li>
+       <li class="dropdown">
+         <a href="omoss.html" class="dropbtn">Om oss</a>
+         <div class="dropdown-content">
+           <a href="kontaktoss.html">Kontakt oss</a>
+        </div>
+       </li>
+         <li class="dropdown">
+           <a href="behandling.html" class="dropbtn">Behandling</a>
+           <div class="dropdown-content">
+           <a href="manikyr.html">Manikyr</a>
+           <a href="pedikyr.html">Pedikyr</a>
+           <li><a href="hovedside.html">Hjem</a></li>
+         </div>
+       </li>
+    </ul>
+    </header>
+    <!--Header slutter-->
+
+    <main>
+     <form action="register.html"><!--opprette et skjema-->
+      <label>Navn:</label>
+       <input type="text" name="navn" required placeholder="skriv inn ditt navn"><!--lager et input-felt av-->
+      <label>Mail:</label>
+       <input type="text" name="mail" required placeholder="example@mail.com">
+        <br> <!--linjeskift-->
+        <br>
+      <label>Velg tid mellom 09.00-17.00:</label>
+        <input type="time" name="tid" required placeholder="10.00">
+        <br>
+      <label>Velg dato:</label>
+       <input type="date" name="year_week" required placeholder="10.00">
+       <button type="submit" name="button">send inn</button>
+     </form>
+    </main>
+
+    <footer>
+      <div class="footer">
+       <div class="box box5">
+        <h2>Kontakt info:</h2>
+        <h3>Nailbar@gmail.com</h3>
+        <h3>+4745122510</h3>
+        <p1>Designed by Shonya Rohan</p1>
+         <a href="https://www.facebook.com/nailbarofficial/" class="fa fa-facebook"></a>
+         <a href="https://www.instagram.com/nailbarofficial/" class="fa fa-instagram"></a>
+         <a href="https://no.pinterest.com/search/pins/?q=nailbar&rs=typed&term_meta[]=nailbar%7Ctyped" class="fa fa-pinterest"></a>
+       </div>
+      </div>
+    </footer>
+
+  </body>
+</html>

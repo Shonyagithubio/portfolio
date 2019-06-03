@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link rel="stylesheet" href="nettside.css">
+
+      <style media="screen">
+      .main{
+      display:grid;
+      grid-template-columns: 1fr 2fr 1fr;
+      grid-auto-rows:minmax(100px, auto);
+      }
+      .main > div{
+      background:white;
+      padding:1em;
+      }
+      .box1{
+      grid-column:2;
+      grid-row: 1/5;
+      }
+      .box3{
+      grid-column:1/4;
+      grid-row: 2/4;
+      }
+      img{
+      border:5px solid #333;
+      }
+      </style>
+  </head>
+
+  <body>
+
+    <header>
+      <!--menybar med dropdown lenker-->
+    <ul>
+      <h1>NAILBAR</h1>
+       <li><a href="booktime.html">Book time</a></li>
+       <li class="dropdown">
+         <a href="omoss.html" class="dropbtn">Om oss</a>
+         <div class="dropdown-content">
+           <a href="kontaktoss.html">Kontakt oss</a>
+        </div>
+       </li>
+         <li class="dropdown">
+           <a href="behandling.html" class="dropbtn">Behandling</a>
+           <div class="dropdown-content">
+           <a href="manikyr.html">Manikyr</a>
+           <a href="pedikyr.html">Pedikyr</a>
+           <li><a href="hovedside.html">Hjem</a></li>
+         </div>
+       </li>
+    </ul>
+    </header>
+    <!--Header slutter-->
+
+
+    <main>
+     <div class="main">
+      <div class="box box1">
+       <p1><b>Besøksadresse:</b></p1>
+       <br>
+       <p1>Sandviksveien 163</p1>
+       <br>
+       <p1>1336 Sandvika</p1>
+       <br>
+       <br>
+        <img src="bildernettside/nailbarsalong.jpg" alt="nailbarsalong.jpg">
+       <br>
+       <br>
+       <p1><b>Mail:</b></p1>
+       <p1>Nailbar@gmail.com</p1>
+       <p1><b>Telefon:</b></p1>
+       <p1>45122510</p1>
+      </div>
+     </div>
+    </main>
+
+    <footer>
+      <div class="footer">
+       <div class="box box3">
+        <h2>Kontakt info:</h2>
+        <h3>Nailbar@gmail.com</h3>
+        <h3>+4745122510</h3>
+        <p1>Designed by Shonya Rohan</p1>
+         <a href="https://www.facebook.com/nailbarofficial/" class="fa fa-facebook"></a>
+         <a href="https://www.instagram.com/nailbarofficial/" class="fa fa-instagram"></a>
+         <a href="https://no.pinterest.com/search/pins/?q=nailbar&rs=typed&term_meta[]=nailbar%7Ctyped" class="fa fa-pinterest"></a>
+       </div>
+      </div>
+    </footer>
+
+  </body>
+</html>

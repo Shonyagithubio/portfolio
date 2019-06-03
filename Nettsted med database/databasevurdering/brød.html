@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <title></title>
+    <script src="https://www.gstatic.com/firebasejs/5.9.1/firebase.js"></script>
+  <script>
+    // Initialize Firebase
+    var config = {
+      apiKey: "AIzaSyAKFq5G6piEVhd_ckZC7KHHXQcS3gqmd9k",
+      authDomain: "bakeri-46720.firebaseapp.com",
+      databaseURL: "https://bakeri-46720.firebaseio.com",
+      projectId: "bakeri-46720",
+      storageBucket: "bakeri-46720.appspot.com",
+      messagingSenderId: "304205930289"
+    };
+    firebase.initializeApp(config);
+  </script>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <nav>
+          <input type="checkbox" id="nav" class="hidden">
+          <label for="nav" class="nav-btn">
+            <i></i>
+            <i></i>
+            <i></i>
+          </label>
+          <div class="logo">
+            <a href="#">SR KONDITORI&BAKERI</a>
+          </div>
+          <div class="nav-wrapper">
+            <ul>
+              <li><a href="hovedside.html">Hjem</a></li>
+              <li><a href="allevarer.html">Alle Varer</a></li>
+              <li><a href="kaker.html">Kaker</a></li>
+              <li><a href="boller.html">Boller</a></li>
+              <li><a href="brød.html">Brød</a></li>
+              <li><a href="glutenfri.html">Glutenfri</a></li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+
+      <section class="knapper">
+       <button onclick="visBrødPris()">Pris lav-høy</button>
+      </section>
+
+    </header>
+
+    <main>
+
+
+
+    </main>
+
+    <script src="javascript.js" charset="utf-8"></script>
+     <script>
+
+       visBrød(); // Funksjon som kjøres når siden lastes
+
+
+
+     </script>
+
+     <footer>
+       <h4>Kontakt info:</h4>
+       <h4>SRbakeriogkonditori@gmail.com</h4>
+       <h4>+4745122510</h4>
+       <h4>Elias Smiths vei 4, 1337 Sandvika</h4>
+       <p1>Designed by Shonya Rohan</p1>
+     </footer>
+  </body>
+</html>

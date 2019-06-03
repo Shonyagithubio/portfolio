@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://www.gstatic.com/firebasejs/5.9.1/firebase.js"></script>
+  <script>
+    // Initialize Firebase
+    var config = {
+      apiKey: "AIzaSyAKFq5G6piEVhd_ckZC7KHHXQcS3gqmd9k",
+      authDomain: "bakeri-46720.firebaseapp.com",
+      databaseURL: "https://bakeri-46720.firebaseio.com",
+      projectId: "bakeri-46720",
+      storageBucket: "bakeri-46720.appspot.com",
+      messagingSenderId: "304205930289"
+    };
+    firebase.initializeApp(config);
+  </script>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <nav>
+          <input type="checkbox" id="nav" class="hidden">
+          <label for="nav" class="nav-btn">
+            <i></i>
+            <i></i>
+            <i></i>
+          </label>
+          <div class="logo">
+            <a href="#">SR KONDITORI&BAKERI</a>
+          </div>
+          <div class="nav-wrapper">
+            <ul>
+              <li><a href="hovedside.html">Hjem</a></li>
+              <li><a href="allevarer.html">Alle Varer</a></li>
+              <li><a href="kaker.html">Kaker</a></li>
+              <li><a href="boller.html">Boller</a></li>
+              <li><a href="brød.html">Brød</a></li>
+              <li><a href="glutenfri.html">Glutenfri</a></li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+
+    </main>
+
+
+    <script type="text/javascript">
+     const main = document.querySelector("main");
+
+     let url_string = window.location.href;
+     let url = new URL(url_string);
+     let parent = url.searchParams.get("parent")
+     let key = url.searchParams.get("key")
+
+     console.log(key, parent);
+
+     const db= firebase.database();
+     const valgtVare = db.ref("Varer/"+parent+"/"+key);
+
+     valgtVare.on("value", genererHTML);
+
+
+     function genererHTML(snapshot){
+       let key = snapshot.key;
+       let varer = snapshot.val();
+       let parent= snapshot.ref.parent.key;
+       console.log(varer);
+       main.innerHTML +=`
+           <article class="Varer">
+             <h1>${varer.Navn}</h1>
+             <img src="bilder/${varer.Bilde}" alt="">
+             <p>Pris: ${varer.Pris}</p>
+             <p>Type: ${varer.Type}</p>
+             <p>${varer.Tekst}</p>
+
+
+             <a href= "valgtVare.html?key=${key}&parent=${parent}">Kjøp</a>
+           </article>
+           <article>
+            <p> ${varer.Beskrivelse}</p>
+          </article>
+       `;
+     }
+
+
+    </script>
+
+  </body>
+</html>
